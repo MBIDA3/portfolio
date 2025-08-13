@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 👨‍💻 Portfolio - Alain Datouo
 
 Bienvenue sur mon portfolio de développeur full stack & DevOps !  
@@ -68,3 +69,6 @@ J’ai travaillé sur plusieurs projets concrets, incluant des applications mobi
 - ✉️ alain.datouo@gmail.com
 
 ---
+=======
+# portfolio
+>>>>>>> c8a6160c32d191765db5a50e2c18d9587804d111
