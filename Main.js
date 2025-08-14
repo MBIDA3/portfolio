@@ -179,34 +179,34 @@ function updateTextBasedOnSize() {
 window.addEventListener("load", updateTextBasedOnSize);
 window.addEventListener("resize", updateTextBasedOnSize);
 
-document.addEventListener("DOMContentLoaded", function () {
-  const downloadButton = document.getElementById("download-cv");
+//document.addEventListener("DOMContentLoaded", function () {
+//  const downloadButton = document.getElementById("download-cv");
 
-  if (downloadButton) {
-    downloadButton.addEventListener("click", function (event) {
-      const cvFile = "assets/cv de base.pdf";
+//if (downloadButton) {
+//  downloadButton.addEventListener("click", function (event) {
+//   const cvFile = "assets/cv_de_base.pdf";
 
-      fetch(cvFile)
-        .then((response) => {
-          console.log("Statut de la réponse :", response.status);
-          if (!response.ok) {
-            alert(
-              "⚠️ Le fichier CV n'est pas disponible. Vérifiez le chemin : " +
-                cvFile
-            );
-            event.preventDefault();
-          }
-        })
-        .catch((error) => {
-          console.error("Erreur de téléchargement :", error);
-          alert("Une erreur s'est produite lors du téléchargement.");
-          event.preventDefault();
-        });
-    });
-  } else {
-    console.error("❌ Erreur : Le bouton 'Télécharger mon CV' n'existe pas.");
-  }
-});
+//    fetch(cvFile)
+//        .then((response) => {
+//        console.log("Statut de la réponse :", response.status);
+//       if (!response.ok) {
+//          alert(
+//              "⚠️ Le fichier CV n'est pas disponible. Vérifiez le chemin : " +
+//                cvFile
+//            );
+//            event.preventDefault();
+//          }
+//      })
+//        .catch((error) => {
+//         console.error("Erreur de téléchargement :", error);
+//        alert("Une erreur s'est produite lors du téléchargement.");
+//         event.preventDefault();
+//        });
+//  });
+// } else {
+//    console.error("❌ Erreur : Le bouton 'Télécharger mon CV' n'existe pas.");
+//  }
+//});
 
 document
   .getElementById("rar-download")
